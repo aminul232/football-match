@@ -11,20 +11,16 @@ top section start
 .container{
     display: flex;
     margin-bottom: 50px;
-
 }
 .top-section-left{
     width: 60%;
     margin-left: 10%;
     margin-top: 8%;
 }
-
 .top-section-left h1{
     font-size: 50px;
     width: 50%;
-    color: #ffffff;
-    
-    
+    color: #ffffff;   
 }
 .top-section-right{
     width: 40%;
@@ -34,7 +30,6 @@ top section start
 }
 .top-section-right img{
     width: 100%;
-
 }
 .top-section-right:hover img{
     transform: scale(1.2);
@@ -71,13 +66,16 @@ top section end
     grid-column-gap: 50px;
 }
 .player{
-    height: 400px;
+    height: 380px;
     width: 250px;
-
+    border: 2px solid gray;
+    margin-bottom: 25px;
+    padding: 20px;
 }
 .player img{
     width: 250px;
 }
+
 /*------highlights-section----*/
 .highlights{
     display: flex;
@@ -106,7 +104,49 @@ top section end
     width: 100%;
 }
 
-
+/*---trophei section---*/
+.trophes{
+    position: relative;
+    margin-bottom: 50px;
+}
+.trophes h1{
+    font-size: 50px;
+    text-align: center;
+    color: #E02C6D;
+}
+.photo-album{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.photo-frame{
+    width: 300px;
+    height: 298px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.photo-frame:hover .photo{
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+}
+.photo img{
+    width: 100%;
+    border-radius: 10px;
+}
+.photo-detail{
+    width: 300px;
+}
+.photo-detail h3 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
 /*--footer---*/
 .footer-image img{
