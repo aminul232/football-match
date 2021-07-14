@@ -52,7 +52,7 @@ top section start
 top section end
 -----------------*/
 
-/*world top players*/
+/*-------world top players------*/
 .world-top-football-players{
     margin-bottom: 50px;
     width: 850px;
@@ -76,7 +76,7 @@ top section end
     width: 250px;
 }
 
-/*------highlights-section----*/
+/*--------highlights-section---------*/
 .highlights{
     display: flex;
     margin-bottom: 50px;
@@ -104,7 +104,7 @@ top section end
     width: 100%;
 }
 
-/*---trophei section---*/
+/*-------trophei section-------*/
 .trophes{
     position: relative;
     margin-bottom: 50px;
@@ -148,7 +148,7 @@ top section end
     border-bottom-right-radius: 10px;
 }
 
-/*--footer---*/
+/*---------footer----------*/
 .footer-image img{
     width: 483px;
     height: 110px;
