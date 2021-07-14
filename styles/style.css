@@ -171,3 +171,41 @@ footer p{
 .fa-copyright{
     font-size: 12px;
 }
+
+
+
+/*-----Madeia Queries------*/
+
+/*------mobile device------*/
+@media only screen and(max-width: 688px) {
+    .top-section-right {
+        width: 60%;
+        margin-right: 0%;
+        margin-top: 22%;
+        margin-bottom: 25%;
+        margin-left: 13%;
+    }
+    .top-section-left h1 {
+        font-size: 36px;
+        width: 50%;
+        color: #ffffff;
+    }
+    .top-section-left {
+        width: 30%;
+        margin-left: 5%;
+        margin-top: 8%;
+    }
+    .link-button {
+        text-decoration: none;
+        color: #ffffff;
+        padding: 4px 10px;
+        background-color: #E02C6D;
+    }
+    .fa-arrow-right {
+        font-size: 10px;
+    }
+    
+    .fa, .fas {
+        font-weight: 600;
+    }
+}
